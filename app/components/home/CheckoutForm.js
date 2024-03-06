@@ -51,10 +51,10 @@ const CheckoutForm = ({ options }) => {
 
 		setProcessing(false);
 
-		// Display confirmation box
-		const confirmation = window.confirm(
-			"Payment successful! Click OK to continue."
-		);
+		// // Display confirmation box
+		// const confirmation = window.confirm(
+		// 	"Payment successful! Click OK to continue."
+		// );
 	};
 
 	return (
