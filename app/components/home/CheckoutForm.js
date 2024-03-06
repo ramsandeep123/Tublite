@@ -55,10 +55,6 @@ const CheckoutForm = ({ options }) => {
 		const confirmation = window.confirm(
 			"Payment successful! Click OK to continue."
 		);
-		if (confirmation) {
-			// Redirect to desired URL
-			window.location.href = "http://localhost:3000/";
-		}
 	};
 
 	return (
